@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #e5e5e5;
+}
+
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;	
+	
+}
+
+.profile {
+	height: 600px;
+	margin: 0px;
+	top: 0px;
+	position: relative;
+	border: 0px;
+	margin-left: 189px;
+    margin-right: auto;
+	display: block;
+	border: 1px solid white;
+    outline-style: solid;
+	outline-color: white;
+}
+
+.information {
+	height: 600px;
+	margin: 0px;
+	top: 0px;
+	position: relative;
+	border: 0px;
+	margin-left: auto;
+    margin-right: 189px;
+	display: block;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+nav {
+display: block;
+width: repeat;
+height: 20px;
+background-color: white;
+text-align: center;
+font-weight: lighter;
+word-spacing: 30px;
+padding:18px 0px 15px 0px;
+position: sticky;
+	
+}
+
+a:link {
+	color: #444444;
+	text-decoration: none;
+	font-family: 'helvetica', sans-serif;
+	
+}
+
+h1 {
+font-family: 'roboto', sans-serif;
+text-decoration: bold;
+text-align: center; 
+	
+}
+
+p {
+background-color: white;
+font-family: 'helvetica', sans-serif; 
+letter-spacing:0.5px;
+}
+	
+
+footer {
+display: block;
+width: repeat;
+height: 25px;
+background-color: white;
+text-align: center;
+font-weight: lighter;	
+font-family: 'helvetica', sans-serif;
+font-size: 10px;
+	
+}
